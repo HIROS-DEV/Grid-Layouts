@@ -1,28 +1,27 @@
-.grid-container {
-	display: grid;
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+.nav__items {
+    display: grid;
+    grid-auto-flow: column;
     gap: 20px;
+    list-style: none;
+    padding-inline-start: 0;
 }
 
-.btn {
-    padding: 15px 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    text-transform: uppercase;
-    cursor: pointer;
+.nav__brand {
+    font-size: 24px;
+    font-weight: 700;
 }
 
-@media (max-width:786px) {
-    .item1 {
-        order: 2;
-    }
-    .item2 {
-        order: 0;
-    }
-    .item3 {
-        order: 1;
-    }
-    .item4 {
-        order: 3;
+@media (max-width:768px) {
+    .nav {
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 }
