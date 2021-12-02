@@ -4,9 +4,41 @@
 
 ## ScreenShot of the project
 
-##Layout1
+## Layout1
 <img src="images/layout1.png"/>
 
+## Layout2
+<img src="images/layout2.png"/>
+
+## Layout3
+<img src="images/layout3.png"/>
+
+## Layout4
+<img src="images/layout4.png"/>
+
+
+## Layout5
+<img src="images/layout5.png"/>
+
+
+## Layout6
+<img src="images/layout6.png"/>
+
+
+## Layout7
+<img src="images/layout7.png"/>
+
+
+## Layout8
+<img src="images/layout8.png"/>
+
+
+## Layout9
+<img src="images/layout9.png"/>
+
+
+## Layout10
+<img src="images/layout10.png"/>
 
 ## Detail of the project
 
