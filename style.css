@@ -1,27 +1,22 @@
-nav {
+.dashboard {
     display: grid;
-    grid-template-columns: 1fr auto;
-    color: white;
-    padding: 20px;
-    align-items: center;
-}
-
-.nav__items {
-    display: grid;
-    grid-auto-flow: column;
+    grid-template-columns:repeat(6,1fr);
     gap: 20px;
-    list-style: none;
-    padding-inline-start: 0;
 }
 
-.nav__brand {
-    font-size: 24px;
-    font-weight: 700;
+.main {
+    grid-column: span 3;
+}
+
+.secondary {
+    grid-column: span 2;
 }
 
 @media (max-width:768px) {
-    .nav {
+    .dashboard {
         grid-template-columns: 1fr;
-        justify-items: center;
+    }
+    .dashboard > * {
+        grid-column: span 1;
     }
 }
