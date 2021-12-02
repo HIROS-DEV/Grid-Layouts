@@ -1,0 +1,22 @@
+.dashboard {
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    gap: 20px;
+}
+
+.main {
+    grid-column: span 3;
+}
+
+.secondary {
+    grid-column: span 2;
+}
+
+@media (max-width:768px) {
+    .dashboard {
+        grid-template-columns: 1fr;
+    }
+    .dashboard > * {
+        grid-column: span 1;
+    }
+}
