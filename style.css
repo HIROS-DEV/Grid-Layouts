@@ -1,8 +1,28 @@
 .grid-container {
-    height: 40vh;
-    width: 60vw;
-    margin: 0 auto;
-    display: grid;
-    justify-items: center;
-    align-items: center;
+	display: grid;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media (max-width:786px) {
+    .item1 {
+        order: 2;
+    }
+    .item2 {
+        order: 0;
+    }
+    .item3 {
+        order: 1;
+    }
+    .item4 {
+        order: 3;
+    }
 }
