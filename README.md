@@ -60,4 +60,5 @@ https://hiros-dev.github.io/Grid-Layouts/
 <p>How to design Simple Web Layout</p>
 <p>How to design Responsive Layout with CSS Grid</p>
 
-Thank you for reading. And, happy coding!!!
+
+<h2>Thank you for reading. And, happy coding!!!</h2>
